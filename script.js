@@ -45,7 +45,5 @@ function listData(item, index){
     listPend.innerHTML += "<li class='list-group-item'>" + item.nik +"-"+ item.nama +"-"+ item.alamat +"</li>"
 
     tblPend.innerHTML += `<tr><td>${item.nik}</td><td>${item.nama}</td><td>${item.alamat}</td></tr>`
-
-
     
 }
